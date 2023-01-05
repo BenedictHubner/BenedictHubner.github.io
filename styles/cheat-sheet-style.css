@@ -1,0 +1,138 @@
+/* Header */
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #041E42;
+}
+
+header p {
+    text-align: center;
+    margin: 5px auto;
+}
+
+/* Navigation menu */
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #041E42;
+}
+
+.nav {
+    margin: 0px auto;
+    border-bottom: 2px solid #041E42;
+}
+  
+.nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav li:hover {
+    background-color: #A9C9DB;
+}
+
+/* Main body & tables */
+body {
+    background-color: #B9D9EB;
+    margin: 0px;
+}
+
+h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+table {
+    margin: 0 auto;
+    width: 800px;
+    background-color: #A9C9DB;
+    border: 2px solid blue;
+}
+
+th {
+    background-color: #073980;
+    color: #6CB4EE;
+}
+
+td {
+    max-width: 400px;
+    padding: 4px;
+    border-top: 2px solid blue;
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+}
+
+/* Colour examples */
+.colEx {
+    color: rgb(128, 0, 128);
+}
+
+.bgEx {
+    background-color: rgba(60, 25, 230, 0.7);
+}
+
+/* Alignment examples */
+.aligEx {
+    text-align: right;
+}
+
+.aligLEx {
+    text-align-last: justify;
+}
+
+.dirEx {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+/* Decoration examples */
+.lineEx {
+    text-decoration-line: overline underline line-through;
+}
+
+.decColEx {
+    text-decoration-line: line-through;
+    text-decoration-color: rgba(240, 50, 50, 0.5);
+}
+
+.decStyEx {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.decThickEx {
+    text-decoration-line: overline;
+    text-decoration-thickness: 25%;
+}
+
+.decEx {
+    text-decoration: line-through blue wavy 20%;
+}
+
+/* Transformation example */
+.transEx {
+    text-transform: capitalize;
+}
+
+/* Shadow example */
+.shadowEx {
+    color: rgb(128, 0, 128);
+    text-shadow: 1px 1px black, 0px 0px 5px blue;
+}
+
+/* Footer */
+footer {
+    margin-top: 10px;
+    border-top: 2px solid #041E42;
+}
+
+footer p {
+    margin-left: 20px;
+}
