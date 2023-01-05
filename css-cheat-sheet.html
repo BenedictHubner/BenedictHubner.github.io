@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="styles/cheat-sheet-style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>CSS Text Manipulation Cheat Sheet</h1>
+        <p>A non-exhaustive list of ways to manipulate text with CSS.</p>
+        <ul class="nav">
+            <a href="#colour"><li><h2>Colours</h2></li></a>
+            <a href="#align"><li><h2>Alignment</h2></li></a>
+            <a href="#decor"><li><h2>Decoration</h2></li></a>
+            <a href="#transf"><li><h2>Transformation</h2></li></a>
+            <a href="#shadow"><li><h2>Shadow</h2></li></a>
+        </ul>
+    </header>
+
+    <div id="colour">
+        <h3>Text Colours</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">color</span></td>
+                    <td>Changes the text's colour with colour names, hex, or rgb(a) (but not hsl)</td>
+                    <td class="colEx">Lorem ipsum dolor sit amet</td>
+                </tr>
+                <tr>
+                    <td><span class="code">background-color</span></td>
+                    <td>Changes the text's background colour with colour names, hex, rgb(a) (but not hsl)</td>
+                    <td class="bgEx">Lorem ipsum dolor sit amet</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="align">
+        <h3>Text Alignment</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">text-align</span></td>
+                    <td>Shifts text left, right, center, or justify ("stretched")</td>
+                    <td class="aligEx">Lorem ipsum dolor sit amet</td>
+                </tr>
+                <tr>
+                    <td><span class="code">text-align-last</span></td>
+                    <td>As above, but only the last line of text</td>
+                    <td class="aligLEx">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</td>
+                </tr>
+                <tr>
+                    <td><span class="code">direction, unicode-bidi</span></td>
+                    <td>Can swap text to be written right to left</td>
+                    <td class="dirEx">Lorem ipsum dolor sit amet</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="decor">
+        <h3>Text Decoration</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Examples</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">text-decoration-line</span></td>
+                    <td>Adds an 'overline', 'underline', 'line-through', a combination, or 'none'</td>
+                    <td class="lineEx">Lorem ipsum dolor sit amet</td>
+                </tr>
+                <tr>
+                    <td><span class="code">text-decoration-color</span></td>
+                    <td>Colours the decoration with colour names, hex, or rgb(a)</td>
+                    <td class="decColEx">Lorem ipsum dolor sit amet</td>
+                </tr>
+                <tr>
+                    <td><span class="code">text-decoration-style</span></td>
+                    <td>Line can be 'solid', 'double', 'dashed', 'dotted', or 'wavy'</td>
+                    <td class="decStyEx">Lorem ipsum dolor sit amet</td>
+                </tr>
+                <tr>
+                    <td><span class="code">text-decoration-thickness</span></td>
+                    <td>Decoration thickness can be a pixel value, or a percentage</td>
+                    <td class="decThickEx">Lorem ipsum dolor sit amet</td>
+                </tr>
+                <tr>
+                    <td><span class="code">text-decoration</span></td>
+                    <td>Shorthand for all the above, but only for one line</td>
+                    <td class="decEx">Lorem ipsum dolor sit amet</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="transf">
+        <h3>Text Transformation</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">text-transform</span></td>
+                    <td>Capitalisation: 'lowercase', 'uppercase', or 'capitalize'</td>
+                    <td class="transEx">Lorem ipsum dolor sit amet</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="shadow">
+        <h3>Text Shadow</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code">text-shadow</span></td>
+                    <td>Adds a shadow. Horizontal offset, vertical offset, blur, colour. Multiple can be added at once separated by commas.</td>
+                    <td class="shadowEx">Lorem ipsum dolor sit amet</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+<footer>
+    <p>Made by Ben Hubner as part of the Codecademy Full-Stack Engineer Career Path.
+    </br>Click <a href="https://benedicthubner.github.io/" target="_blank">here</a> to see some more of my work.</p>
+</footer>
+</html>
