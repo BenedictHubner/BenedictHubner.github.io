@@ -1,0 +1,157 @@
+/* Universal styles */
+body {
+    color: seashell;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0px;
+}
+
+
+/* Header styles */
+header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    max-height: 50px;
+    margin-left: 10px;
+}
+
+h2, h4 {
+    margin: 10px;
+}
+
+/* Nav menu styles */
+.navigation {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+.navigation li {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.navigation a{
+    color: seashell;
+}
+
+.navigation a:hover{
+    font-size: 26px;
+    color: rgb(205, 195, 188)
+}
+
+.anchor-point {
+    position: relative;
+    top: -70px;
+}
+
+/* Main styles */
+main {
+    margin: 70px 20px 20px 20px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+/* Mission */
+.mission {
+    margin: auto;
+    background-image: url(../images/teaCozy/mission-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.mission-text {
+    background-color: black;
+    width: 1200px;
+}
+
+
+/* Featured teas */
+.featured-tea {
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+.tea-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+}
+
+.tea {
+    height: 200px;
+    width: 300px;
+    margin: 0px 10px;
+}
+
+/* Locations */
+.locations {
+    margin: auto;
+    min-height: 500px;
+    max-width: 1200px;
+    background-image: url(../images/teaCozy/locations-bg.jpg);
+    background-position: center;
+}
+
+.locations h2 {
+    padding-top: 45px;
+    margin: 0px;
+}
+
+.location-flexbox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    padding-bottom: 45px;
+}
+
+.loc {
+    opacity: 1;
+    background-color: black;
+    min-height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px;
+}
+
+/* Contact */
+.contact {
+    min-height: 200px;
+}
+
+.contact h2 {
+    margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+    margin: 20px;
+}
+
+h5 a {
+    color: seashell;
+}
