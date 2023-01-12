@@ -3,29 +3,40 @@
 <html>
     <head> 
 	    <title>Hubner Central | Home</title>
-	    <link href="./styles/style.css" rel="stylesheet">
-	    <link href="./images/icons/HubnerCentral.png" rel="icon">
+	    <link href="styles/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Martian+Mono:wght@400;700&family=Merriweather:ital,wght@0,300;0,700;1,300&family=Rubik:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+	    <link href="images/icons/HubnerCentral.png" rel="icon">
     </head>
     <body>
-        <nav class="header">
-            <ul>
-                <li><a href="#top">Home</a></li>
-                <li><a href="./mazes.html">Mazes</a></li>
-                <li><a href="./platformer.html">Platformer</a></li>
-		<li><a href="./minesweeper.html">Minesweepers</a></li>
-            </ul>
-	    </nav>
-        <div class="intro">
-	        <h1>Welcome to my website, I guess</h1>
-            <p>Here you can find... almost nothing, but I'm trying to add stuff</p>
-        </div>
-	    <div class="doggos">
-            <h2>Cute doggos</h2>
-            <p>Here are some pictures of some cute dogs. Happy yet?</p>
-            <div class="vert-align">
-                <img src="./images/dogs/twoDogs.jpg" />
-		        <img src="./images/dogs/newfoundland.jpeg" />
+        <header>
+            <span class="home-button"><a href="#top">Hubner Central</a></span>
+            <nav>
+                <ul>
+                    <li><a href="mazes.html">Mazes</a></li>
+                    <li><a href="platformer.html">Platformer</a></li>
+		            <li><a href="minesweeper.html">Minesweepers</a></li>
+                </ul>
+	        </nav>
+        </header>
+        <main>
+            <div class="intro">
+	            <h1>Welcome to my website, I guess</h1>
+                <p>Here you can find... almost nothing, but I'm trying to add stuff</p>
             </div>
-	    </div>
+	        <div >
+                <h2>Cute doggos</h2>
+                <p>Here are some pictures of some cute dogs. Happy yet?</p>
+                <div class="doggos">
+                    <div class="image-container">
+                        <img src="images/dogs/twoDogs.jpg" />
+                    </div>
+                    <div class="image-container">
+		                <img src="images/dogs/newfoundland.jpeg" />
+                    </div>
+                </div>
+	        </div>
+        </main>
     </body>
 </html>

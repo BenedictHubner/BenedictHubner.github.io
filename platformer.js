@@ -210,6 +210,7 @@ let end;
 let endGoalScore = 0;
 let killCount = 0;
 let levelFinished = false;
+let gameOver = false;
 
 function endScreen() {
     end = requestAnimationFrame(endScreen);
@@ -271,7 +272,8 @@ function animate() {
     });
     player1.update();
     c.font = "32px Arial"
-    c.fillText("Lives: "+player1.lives, 20, 40)
+    c.fillText("Level: "+level, 20, 40)
+    c.fillText("Lives: "+player1.lives, 20, 72)
     if (keys.right.pressed && player1.position.x < canvas.width * 0.4) {
         player1.velocity.x = 4;
     } else if (keys.left.pressed && player1.position.x > 52) {
@@ -392,7 +394,8 @@ function death() {
         });
         player1.update();
         c.font = "32px Arial"
-        c.fillText("Lives: " + player1.lives, 20, 40)
+        c.fillText("Level: "+level, 20, 40)
+        c.fillText("Lives: "+player1.lives, 20, 72)
         // Add game over message
         c.fillStyle = "lightgrey";
         c.fillRect(312, 150, 400, 150);
@@ -401,6 +404,7 @@ function death() {
         c.fillStyle = "grey";
         c.font = "72px Arial";
         c.fillText("Game Over", 322, 250);
+        gameOver = true;
     }
 }
 
@@ -411,6 +415,11 @@ addEventListener("keydown", ({ key }) => {
         case " ":
             if (levelFinished) {
                 level++;
+                levelFinished = false;
+                player1.lives = 4;
+                death();
+            } else if (gameOver) {
+                level = 1;
                 levelFinished = false;
                 player1.lives = 4;
                 death();
