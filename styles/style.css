@@ -75,7 +75,8 @@ header li {
   margin: 0px auto;
   text-align: center;
   border-bottom: 2px solid #202020;
-  width: 40%;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .doggos {
