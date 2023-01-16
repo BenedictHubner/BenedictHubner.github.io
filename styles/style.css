@@ -20,12 +20,11 @@ h2 {
 }
 
 a {
-  text-decoration: none;
   color: seashell;
 }
 
 a:hover {
-  color: blue;
+  color: #8FC7FF;
 }
 
 #canvas-holder {
@@ -72,6 +71,10 @@ header ul {
 header li {
   display: inline-block;
   padding: 10px;
+}
+
+header a {
+  text-decoration: none;
 }
 
 /* Main body */
