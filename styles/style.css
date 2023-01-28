@@ -149,3 +149,7 @@ header a {
   margin: 0 0.5rem;
   width: 6rem;
 }
+
+canvas {
+  margin-bottom: 5rem;
+}
