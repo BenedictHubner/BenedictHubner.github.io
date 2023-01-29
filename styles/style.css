@@ -71,11 +71,11 @@ header a {
   overflow: hidden;
 }
 
-.dropbutton {
+.dropbutton, .navbutton {
   padding: 1.1rem 0;
 }
 
-.dropbutton a{
+.dropbutton a, .navbutton a{
   padding: 1.1rem 0.5rem;
 }
 
@@ -97,7 +97,7 @@ header a {
   z-index: 1;
 }
 
-.dropdown:hover .dropbutton {
+.dropdown:hover .dropbutton, .dropdown:hover .navbutton {
   background-color: #707070;
 }
 
