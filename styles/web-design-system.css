@@ -1,0 +1,138 @@
+/* Universal styles */ 
+body {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+main {
+    width: 100%;
+}
+
+.page-title {
+    margin-left: 2%;
+    text-decoration: underline wavy;
+}
+
+section {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    width: 96%;
+    margin: 50px auto;
+}
+
+.section-title {
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+/* Colour section */
+.colour-box {
+    text-align: center;
+    width: 190px;
+    margin: 0px 10px;
+}
+
+.colour {
+    width: 160px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+/* Specific colours */
+#lightgrey {
+    background-color: #505050;
+    color: seashell;
+}
+
+#bg-grey {
+    background-color: #404040;
+    color: seashell;
+}
+
+#verydarkgrey {
+    background-color: #202020;
+    color: seashell;
+}
+
+#seashell {
+    background-color: #FFF5EE;
+}
+
+#skyblue {
+    background-color: #8FC7FF;
+}
+
+/* Font section */
+.font {
+    margin: 10px;
+    width: 310px;
+}
+
+.font h3 {
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Specific fonts */
+.rubik {
+    font-family: "Rubik", sans-serif;
+}
+
+.merriweather {
+    font-family: "Merriweather", serif;
+}
+
+.martian {
+    font-family: "Martian Mono", monospace;
+}
+
+.hyperlegible {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+/* Text styles section */
+.text-style {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.text-styles-container {
+    align-content: flex-end;
+}
+
+h1 {
+    font-family: "Atkinson Hyperlegible";
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: "Atkinson Hyperlegible";
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.text-style p {
+    font-family: "Atkinson Hyperlegible";
+    font-weight: 400;
+    font-size: 1rem;
+}
